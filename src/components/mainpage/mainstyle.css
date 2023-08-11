@@ -1,0 +1,55 @@
+.main__wrp {
+  padding-top: 166px;
+  padding-left: 152px;
+  padding-right: 42px;
+  padding-bottom: 90px;
+  display: flex;
+  background: #f3feff;
+  position: relative;
+}
+.main__wrp::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url(../../images/bacgroundslash.png);
+  background-size: cover;
+}
+.main__content {
+  width: 50%;
+  padding-top: 73px;
+}
+.main__content h1 {
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 20px;
+  max-width: 553px;
+}
+.main__content h1 span {
+  color: #32a3b2;
+}
+.main__content p {
+  color: #707273;
+  font-size: 21px;
+  line-height: 160%;
+  margin-bottom: 30px;
+  max-width: 523px;
+}
+.main__button {
+  padding: 15px 35px;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.main__img {
+  width: 735px;
+  height: 544px;
+  background-image: url(../../images/girlvwiththings.png);
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+}

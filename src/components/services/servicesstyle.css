@@ -1,0 +1,128 @@
+.services__wrp {
+  padding-top: 120px;
+}
+.services__top {
+  padding-bottom: 120px;
+  text-align: center;
+}
+.services__content {
+  margin-bottom: 60px;
+}
+.services__content h2 {
+  color: #252626;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.services__content p {
+  color: #707273;
+  line-height: 160%;
+  max-width: 597px;
+  margin: auto;
+}
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 62px;
+}
+.services__list li {
+  padding: 30px 22px 35px 22px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  position: relative;
+}
+.services__list h3 {
+  margin-top: 20px;
+  color: #252626;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 150%;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+}
+.services__list p {
+  color: #707273;
+  line-height: 160%;
+  width: 217px;
+  position: relative;
+  z-index: 2;
+}
+.services__list img {
+  position: relative;
+  z-index: 2;
+}
+.services__list li::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../images/bacgroundslash.png);
+  background-size: cover;
+  visibility: hidden;
+  cursor: pointer;
+}
+.services__list li:hover {
+  border: 1px solid #a3e0e8;
+  background: #d1f4f9;
+}
+.services__list li:hover::after {
+  visibility: visible;
+}
+.services__bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 126px;
+}
+.services__bottom__content {
+  padding-top: 78px;
+  max-width: 449px;
+}
+.services__bottom__content h2 {
+  color: #252626;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.services__bottom__content p {
+  color: #707273;
+  line-height: 160%;
+  margin-bottom: 35px;
+}
+.services__bottom__content span {
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+}
+.services__bottom__content span::after {
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 10px;
+  width: 61px;
+  height: 1px;
+  background: #707273;
+}
+.services__bottom__button {
+  padding: 15px 35px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid rgba(53, 175, 191, 0.2);
+  background-color: #fff;
+  color: #35afbf;
+  font-weight: 500;
+  line-height: 120%;
+}
+.services__bottom__img {
+  background-image: url(../../images/circle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 392.943px;
+  height: 392.943px;
+}

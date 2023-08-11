@@ -1,0 +1,39 @@
+.header__wrp {
+  display: flex;
+  align-items: center;
+  min-width: 100vw;
+  justify-content: space-between;
+  padding: 35px 100px 0 152px;
+  position: absolute;
+  z-index: 4;
+  background-color: transparent;
+}
+.header__logo {
+  margin-right: 190px;
+}
+.header__nav__list {
+  display: flex;
+  list-style-type: none;
+  margin-right: 151px;
+  gap: 45px;
+}
+.header__nav__list-item {
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.6s ease-in-out;
+}
+.header__nav__list-item a {
+  color: #35afbf;
+  font-weight: 500;
+  line-height: 160%;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.header__nav__list-item:hover {
+  border-bottom: 2px solid #35afbf;
+}
+.header__button {
+  padding: 15px 30px;
+  white-space: nowrap;
+  font-weight: 500;
+}

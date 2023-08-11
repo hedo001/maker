@@ -1,0 +1,56 @@
+.comment__top {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(../../images/backslashtiny.png),
+    linear-gradient(rgb(210, 245, 249, 0.5), rgb(209, 244, 249, 0.5));
+  background-size: cover;
+}
+.maincomment {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 44px;
+  color: #4b4c4c;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 140%;
+  max-width: 1072px;
+}
+.comment__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-align: start;
+}
+.comment__profile__content p {
+  color: #4b4c4c;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 80%;
+  margin-bottom: 5px;
+}
+
+.comment__profile__content span {
+  color: #707273;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+}
+.comment__bottom {
+  padding: 120px 0;
+  text-align: center;
+}
+.comment__bottom h2 {
+  color: #252626;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 135%;
+  max-width: 854px;
+  margin: auto;
+  margin-bottom: 35px;
+}
+.comment__bottom__button {
+  padding: 15px 35px;
+  font-weight: 500;
+  line-height: 120%;
+}
